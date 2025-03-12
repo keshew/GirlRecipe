@@ -15,7 +15,7 @@ class UserDefaultsManager: ObservableObject {
     
     func firstLaunch() {
         if UserDefaultsManager.defaults.object(forKey: Keys.currentLevel.rawValue) == nil {
-            UserDefaultsManager.defaults.set(3, forKey: Keys.currentLevel.rawValue)
+            UserDefaultsManager.defaults.set(1, forKey: Keys.currentLevel.rawValue)
             UserDefaultsManager.defaults.set(2, forKey: Keys.timeCount.rawValue)
             UserDefaultsManager.defaults.set(2, forKey: Keys.mistakeCount.rawValue)
             UserDefaultsManager.defaults.set(10, forKey: Keys.lifes.rawValue)
