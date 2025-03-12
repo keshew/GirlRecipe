@@ -38,8 +38,9 @@ struct GirlMenuView: View {
                             Spacer()
                         }
                         
-                        Text("NAME\nGAME")
+                        Text("SWEET\nJELLY\nLAYERS")
                             .Unlock(size: 60)
+                            .multilineTextAlignment(.center)
                         
                         HStack(spacing: geometry.size.width * 0.075) {
                             ZStack {
