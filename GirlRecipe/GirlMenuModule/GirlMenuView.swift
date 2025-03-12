@@ -38,8 +38,10 @@ struct GirlMenuView: View {
                             Spacer()
                         }
                         
-                        Text("SWEET\nJELLY\nLAYERS")
-                            .Unlock(size: 60)
+                        Spacer(minLength: 20)
+                        
+                        Text("SWEET JELLY\nLAYERS")
+                            .Unlock(size: 50)
                             .multilineTextAlignment(.center)
                         
                         HStack(spacing: geometry.size.width * 0.075) {
